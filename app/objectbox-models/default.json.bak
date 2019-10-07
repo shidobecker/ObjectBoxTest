@@ -1,0 +1,149 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:3870918651690408061",
+      "lastPropertyId": "5:3849206354885953181",
+      "name": "Note",
+      "properties": [
+        {
+          "id": "2:4200796023271677297",
+          "name": "id"
+        },
+        {
+          "id": "3:1541103502032278820",
+          "name": "text"
+        },
+        {
+          "id": "4:8492943283341986068",
+          "name": "createdAt"
+        },
+        {
+          "id": "5:3849206354885953181",
+          "name": "uuid"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:186012034317909125",
+      "lastPropertyId": "4:6911011093601986589",
+      "name": "User",
+      "properties": [
+        {
+          "id": "1:5947893115785094305",
+          "name": "boxId"
+        },
+        {
+          "id": "2:6936262201590681372",
+          "name": "id"
+        },
+        {
+          "id": "3:586649939453263279",
+          "name": "username"
+        },
+        {
+          "id": "4:6911011093601986589",
+          "name": "password"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:2051934070423888197",
+      "lastPropertyId": "2:6383988157489425725",
+      "name": "Authority",
+      "properties": [
+        {
+          "id": "1:5876121798229812995",
+          "name": "authority"
+        },
+        {
+          "id": "2:6383988157489425725",
+          "name": "boxId"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:3708180368150257117",
+      "lastPropertyId": "2:5438138667600882626",
+      "name": "Role",
+      "properties": [
+        {
+          "id": "1:7249262490315372957",
+          "name": "role"
+        },
+        {
+          "id": "2:5438138667600882626",
+          "name": "boxId"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "5:2347441752217486952",
+      "lastPropertyId": "8:1784724206932213588",
+      "name": "UserAuthority",
+      "properties": [
+        {
+          "id": "1:430016477071797101",
+          "name": "boxId"
+        },
+        {
+          "id": "2:5086025093650394597",
+          "name": "id"
+        },
+        {
+          "id": "3:7203378054422216497",
+          "name": "username"
+        },
+        {
+          "id": "4:4830629877604460364",
+          "name": "password"
+        },
+        {
+          "id": "5:1828326552308563079",
+          "name": "personId"
+        },
+        {
+          "id": "6:2307998719327147389",
+          "name": "useTermsAccepted"
+        },
+        {
+          "id": "7:1042483609776489811",
+          "name": "useTermsAcceptanceDate"
+        },
+        {
+          "id": "8:1784724206932213588",
+          "name": "createdDate"
+        }
+      ],
+      "relations": [
+        {
+          "id": "1:3354110291609430538",
+          "name": "authorities"
+        },
+        {
+          "id": "2:897761482456872301",
+          "name": "roles"
+        }
+      ]
+    }
+  ],
+  "lastEntityId": "5:2347441752217486952",
+  "lastIndexId": "0:0",
+  "lastRelationId": "2:897761482456872301",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [
+    4062992887139157577
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}

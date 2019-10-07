@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ObjectBoxTest</string>
+    <string name="save_note">Save Note</string>
+    <string name="uodate_note">Uodate Note</string>
+</resources>
